@@ -12,6 +12,7 @@ spec:
   source:
     path: environments/dev/env/overlays
     repoURL: https://github.com/sabre1041/kam-gitops.git
+    targetRevision: main
   syncPolicy:
     automated:
       prune: true
