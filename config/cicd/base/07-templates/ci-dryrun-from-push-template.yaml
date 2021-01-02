@@ -6,7 +6,7 @@ metadata:
   namespace: cicd
 spec:
   params:
-  - default: master
+  - default: main
     description: The git revision
     name: io.openshift.build.commit.ref
   - description: The specific commit SHA
